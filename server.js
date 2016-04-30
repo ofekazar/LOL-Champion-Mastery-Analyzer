@@ -19,5 +19,5 @@ app.get('/', function(req, res) {
 		name: bembID
 	});
 });
-var port = Number(process.env.PORT || 5000);
+var port = Number(process.env.PORT || 8080);
 app.listen(port);
